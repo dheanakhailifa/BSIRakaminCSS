@@ -1,0 +1,24 @@
+h3 {
+    color: greenyellow;
+    margin: 25px;
+}
+
+.card{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    margin: 20px 50px;
+}
+
+.title{
+    color: red;
+}
+
+h3{
+    color: aqua;
+}
+
+.CardParent{
+    color: orange;
+    display: flex;
+}
