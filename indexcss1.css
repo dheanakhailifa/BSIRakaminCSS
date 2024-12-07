@@ -10,7 +10,8 @@ h3 {
 .card{
     background-color: white;
     color: white;
-    width: 15%;
+    width: 80%;
+    height: 235px;
     margin: 10px;
     text-align: center;
     border-radius: 15px;
@@ -33,10 +34,124 @@ p{
     color: rgb(51, 50, 50);
 }
 
+.description{
+    font-size: 14px;
+}
 
 .Parent{
     color: orange;
     justify-content: space-between;
     display: flex;
-    background-color: rgb(242, 242, 153);
+    background-color: rgb(181, 231, 231);
+    margin-top: 200px;
+}
+
+#nama {
+    color:black;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.deskripsi {
+    color: black;
+    font-size: 16px;
+    width : 600px;
+    
+}
+
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #98DFAF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; 
+    border: 2px solid black; 
+    border-radius: 30px; 
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+.fotoprofil{
+    border-radius: 100%;
+    width:300px;
+    height:300px;
+    margin-top: 40px;
+}
+
+.profil{
+    display: flex;
+    padding: 120px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.workexperience{
+    color: black;
+    font-size: 22px;
+}
+.viewall{
+    color:rgb(98, 154, 108);
+    font-size: 16px;
+}
+.experience{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 120px;
+    padding-bottom: 5px;
+    padding-right: 120px;
+}
+.keterangan{
+    justify-content: space-between;
+    align-items: center;
+}
+.pengalaman{
+    display: flex;
+    width: 80%;
+    margin: 0px 148px;
+    text-align: center;
+    border-radius: 60%;
+    justify-content: space-between;
+}
+.sliceexperience{
+    background-color: rgb(233, 244, 233)
+}
+.cardexperience{
+    background-color: white;
+    width: 418px;
+    height: 280px;
+    margin: 20 px;
+    border-radius: 4%;
+    margin-bottom: 40px;
+}
+.peran{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.tempat{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.waktu{
+    font-size: 13px;
+    margin-top: 0px;
+}
+.deskripsisml{
+    font-size: 9px;
+    text-align: left;
+    margin: 15px;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+.deskripsibsi{
+    font-size: 9px;
+    text-align: left;
+    margin: 15px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
